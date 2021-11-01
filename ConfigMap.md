@@ -1,9 +1,8 @@
-# Sample Scenarios
+# Code Snippets
 
-This repo contains various practice questions for k8s configmaps.
+This repo contains code snippets of k8s configmaps.
 
-## Questions
-
+## as environment variable
 <details><summary>1a. Passing a ConfigMap entry to a container as an environment variable</summary>
   <p>
     
@@ -72,6 +71,7 @@ This repo contains various practice questions for k8s configmaps.
   </p>
 </details>
 
+## as files
 <details><summary>3a. Using a configMap volume to expose ConfigMap entries as files</summary>
   <p>
     
