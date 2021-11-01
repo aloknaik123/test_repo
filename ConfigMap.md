@@ -5,7 +5,7 @@ This repo contains various practice questions for k8s configmaps.
 ## Questions
 
 1.
-<details><summary>give scenario detail here</summary>
+<details><summary>1. give scenario detail here</summary>
   <p>
     
   ```
@@ -15,7 +15,7 @@ This repo contains various practice questions for k8s configmaps.
   </details>
 
 2.
-<details><summary>give scenario detail here</summary>
+<details><summary>2. give scenario detail here</summary>
   <p>
     
   ```
