@@ -4,7 +4,7 @@ This repo contains various practice questions for k8s configmaps.
 
 ## Questions
 
-<details><summary>1. Passing a ConfigMap entry to a container as an environment variable</summary>
+<details><summary>1a. Passing a ConfigMap entry to a container as an environment variable</summary>
   <p>
     
   ```
@@ -26,29 +26,8 @@ This repo contains various practice questions for k8s configmaps.
   ```
   </p>
 </details>
-
-<details><summary>2. Passing all entries of a ConfigMap as environment variables at once</summary>
-  <p>
     
-  ```
-  apiVersion: v1
-  kind: Pod
-  metadata:
-    name: <pod-name>
-  spec:
-    containers:
-    - image: <image-name>
-      name: <container-name>
-      envFrom:
-      - prefix: CONFIG_ (optional)
-        configMapRef:
-          name: <cm>
-  ...
-  ```
-  </p>
-</details>
-    
-<details><summary>3. Passing a ConfigMap entry as a command-line argument</summary>
+<details><summary>1b. Passing a ConfigMap entry as a command-line argument</summary>
   <p>
     
   ```
@@ -71,8 +50,29 @@ This repo contains various practice questions for k8s configmaps.
   ```
   </p>
 </details>
+    
+<details><summary>2. Passing all entries of a ConfigMap as environment variables at once</summary>
+  <p>
+    
+  ```
+  apiVersion: v1
+  kind: Pod
+  metadata:
+    name: <pod-name>
+  spec:
+    containers:
+    - image: <image-name>
+      name: <container-name>
+      envFrom:
+      - prefix: CONFIG_ (optional)
+        configMapRef:
+          name: <cm>
+  ...
+  ```
+  </p>
+</details>
 
-<details><summary>4. Using a configMap volume to expose ConfigMap entries as files</summary>
+<details><summary>3a. Using a configMap volume to expose ConfigMap entries as files</summary>
   <p>
     
   ```
@@ -101,7 +101,7 @@ This repo contains various practice questions for k8s configmaps.
   </p>
 </details>
     
-<details><summary>4a. Exposing certain ConfigMap entries in the volume</summary>
+<details><summary>3b. Exposing certain ConfigMap entries in the volume</summary>
   <p>
     
   ```
@@ -133,7 +133,7 @@ This repo contains various practice questions for k8s configmaps.
   </p>
 </details>
 
-<details><summary>4b. Mounting individual ConfigMap entries as files without hiding other files in the directory</summary>
+<details><summary>3c. Mounting individual ConfigMap entries as files without hiding other files in the directory</summary>
   <p>
     
   ```
@@ -165,7 +165,7 @@ This repo contains various practice questions for k8s configmaps.
   </p>
 </details>
 
-<details><summary>4c. Setting file permissions</summary>
+<details><summary>3d. Setting file permissions</summary>
   <p>
     
   ```
