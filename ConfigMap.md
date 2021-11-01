@@ -21,6 +21,7 @@ This repo contains various practice questions for k8s configmaps.
         configMapKeyRef:
           name: <cm>
           key: <key name>
+  ...
   ```
   </p>
   </details>
