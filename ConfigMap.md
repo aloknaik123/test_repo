@@ -1,1 +1,1 @@
-sample scenarios to practice configmaps
+# Sample Scenarios
