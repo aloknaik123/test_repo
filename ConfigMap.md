@@ -5,12 +5,10 @@ This repo contains various practice questions for k8s configmaps.
 ## Questions
 
 <details><summary>give scenario detail here</summary>
-<p>
-  
+  <p>
   ```
   kubectl get pv
   ```
-  
   </p>
   </details>
   
