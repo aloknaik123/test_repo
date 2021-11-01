@@ -18,9 +18,9 @@ This repo contains code snippets of k8s configmaps.
       env:
       - name: VARIABLE
         valueFrom:
-        configMapKeyRef:
-          name: <cm>
-          key: <key name>
+          configMapKeyRef:
+            name: <cm>
+            key: <key name>
   ...
   ```
   </p>
