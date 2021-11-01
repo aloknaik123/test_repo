@@ -4,7 +4,7 @@ This repo contains various practice questions for k8s configmaps.
 
 ## Questions
 
-<details><summary>give scenario detail here</summary>
+1. <details><summary>give scenario detail here</summary>
   <p>
     
   ```
@@ -13,4 +13,11 @@ This repo contains various practice questions for k8s configmaps.
   </p>
   </details>
   
-  
+  2. <details><summary>give scenario detail here</summary>
+  <p>
+    
+  ```
+  kubectl get pv
+  ```
+  </p>
+  </details>
