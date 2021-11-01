@@ -37,7 +37,7 @@ This repo contains various practice questions for k8s configmaps.
   spec:
     containers:
     - image: <image-name>
-      **envFrom:
+      **envFrom:**
       - prefix: CONFIG_ (optional)
         configMapRef:
           name: <cm>
