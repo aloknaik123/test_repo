@@ -8,7 +8,19 @@ This repo contains various practice questions for k8s configmaps.
   <p>
     
   ```
-  kubectl get pv
+  apiVersion: v1
+  kind: Pod
+  metadata:
+    name: <pod-name>
+  spec:
+    containers:
+    - image: <image-name>
+      env:
+      - name: VARIABLE
+        valueFrom:
+        configMapKeyRef:
+          name: <cm>
+          key: <key name>
   ```
   </p>
   </details>
