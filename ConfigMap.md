@@ -24,8 +24,28 @@ This repo contains various practice questions for k8s configmaps.
   ...
   ```
   </p>
-  </details>
+</details>
 
+<details><summary>2. Passing all entries of a ConfigMap as environment variables at once</summary>
+  <p>
+    
+  ```
+  apiVersion: v1
+  kind: Pod
+  metadata:
+    name: <pod-name>
+  spec:
+    containers:
+    - image: <image-name>
+      **envFrom:
+      - prefix: CONFIG_ (optional)
+        configMapRef:
+          name: <cm>
+  ...
+  ```
+  </p>
+</details>
+    
 <details><summary>2. give scenario detail here</summary>
   <p>
     
