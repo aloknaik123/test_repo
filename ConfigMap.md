@@ -6,6 +6,7 @@ This repo contains various practice questions for k8s configmaps.
 
 <details><summary>give scenario detail here</summary>
   <p>
+    
   ```
   kubectl get pv
   ```
