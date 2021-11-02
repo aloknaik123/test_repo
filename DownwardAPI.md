@@ -37,7 +37,7 @@ This repo contains code snippets of k8s downwardAPI.
   </p>
 </details>
 
-<details><summary>1a. Injecting CONTAINER resource fields into environment variables</summary>
+<details><summary>1b. Injecting CONTAINER resource fields into environment variables</summary>
   <p>
     
   ```
