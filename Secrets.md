@@ -19,7 +19,7 @@ This repo contains code snippets of k8s secrets.
       - name: VARIABLE
         valueFrom:
           secretKeyRef:
-            name: <cm>
+            name: <secret-name>
             key: <key name>
   ...
   ```
