@@ -49,7 +49,7 @@ This repo contains code snippets of k8s secrets.
         secretName: <secret-name>
         items:
         - key: <key-name>
-          path: </path/to/file>
+          path: <file name>
           mode: 0600 (optional)
   ...
   ```
