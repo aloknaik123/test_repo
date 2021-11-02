@@ -194,11 +194,3 @@ This repo contains code snippets of k8s configmaps.
   ```
   </p>
 </details>    
-<details><summary>2. give scenario detail here</summary>
-  <p>
-    
-  ```
-  kubectl get pv
-  ```
-  </p>
-  </details>
